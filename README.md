@@ -1,56 +1,53 @@
-**Portfolio Pessoal**
+# **Portfólio Pessoal**
 
-Bem-vindo ao meu primeiro portfolio desenvolvido utilizando apenas HTML5 e CSS3! Este projeto tem como objetivo apresentar um pouco sobre mim, minha família, meu currículo e alguns dos projetos que realizei durante meus estudos na Trybe.
+### Bem-vindo ao meu primeiro portfolio desenvolvido utilizando apenas HTML5 e CSS3! Este projeto tem como objetivo apresentar um pouco sobre mim, minha família, meu currículo e alguns dos projetos que realizei durante meus estudos na Trybe.
 
-**Conteúdo
+**Conteúdo:**
 
-Sobre Mim;
+1)Sobre Mim;
 
-Currículo;
+2)Currículo;
 
-Projetos (EM CONSTRUÇÃO);
+~~3)Projetos (EM CONSTRUÇÃO);~~
 
-Tecnologias Utilizadas;
+4)Tecnologias Utilizadas;
 
-Instruções de Uso;
+5)Instruções de Uso;
 
-Autor;
+6)Autor;
 
-Agradecimentos;**
+7)Agradecimentos;
 
-
-
-**Sobre Mim**
-
+### **Sobre Mim**
 Nesta seção, apresento um breve resumo sobre minha trajetória profissional e interesses pessoais. Destaco minhas principais habilidades e experiências, além de fornecer informações de contato.
 
 
-**Currículo**
+### **Currículo**
 
-Apresento meu currículo nesta seção, incluindo minha formação acadêmica, experiências profissionais anteriores e habilidades técnicas. Destaco as principais conquistas e responsabilidades em cada cargo exercido.
+Apresento meu currículo nesta seção, incluindo minha formação acadêmica, experiências profissionais anteriores, habilidades técnicas e de softskills. Destaco as principais conquistas e responsabilidades em cada cargo exercido.
 
 
-**Projetos (EM CONSTRUÇÃO)**
+### **Projetos (EM CONSTRUÇÃO)**
 
 Nesta parte do portfolio, compartilho alguns dos projetos que desenvolvi enquanto estudava na Trybe. Descrevo cada projeto, explicando os desafios enfrentados, as soluções implementadas e as tecnologias utilizadas. Também forneço links para os repositórios onde o código-fonte dos projetos pode ser encontrado.
 
 
-**Tecnologias Utilizadas**
+### **Tecnologias Utilizadas**
 
-Destaco as principais tecnologias que utilizei para desenvolver este portfolio. Apesar de ser construído apenas com HTML5 e CSS3 puro, é importante mencionar quais versões foram utilizadas e como elas contribuíram para o desenvolvimento da aplicação.
-
-
-**Instruções de Uso**
-
-Caso você queira executar este portfolio em seu ambiente local, forneço instruções passo a passo sobre como clonar o repositório, instalar as dependências e iniciar o servidor de desenvolvimento. Também compartilho quaisquer requisitos específicos de sistema ou configurações adicionais necessárias.
+Apesar de ser construído apenas com HTML5 e CSS3 achei importante construir um material desde o início para ter noção de modelagem 'feita à mão', porém em próximos projetos quero utilizar frameworks.
 
 
-**Autor**
+### **Instruções de Uso**
+
+Caso você queira executar este portfolio em seu ambiente local, basta você realizar o git clone e abrir no seu editor de código.
+
+
+### **Autor**
 
 Nesta seção, me apresento como o autor deste portfolio. Compartilho informações pessoais, interesses profissionais e links para meus perfis em redes sociais e outras plataformas. É uma oportunidade para que os visitantes entrem em contato comigo ou conheçam mais sobre meu trabalho.
 
 
-**Agradecimentos**
+### **Agradecimentos**
 
 Agradeço a todos que me apoiaram ao longo desta jornada, especialmente à Trybe por fornecer uma educação de alta qualidade em desenvolvimento web. Também expresso minha gratidão a todos os mentores, colegas de turma e amigos que me ajudaram no processo de aprendizagem e no desenvolvimento deste portfolio.
 
