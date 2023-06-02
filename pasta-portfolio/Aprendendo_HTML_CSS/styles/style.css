@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #784b6b;
+    --cor-secundaria: #dfdfdf;
+    --cor-terciaria: #161616;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; 100% da height(altura) viewport(porção da área visível de um plano e utilizada como medida do CSS para criar páginas mais responsivas), marcado pela tag META do HTML */
+    box-sizing: border-box;  /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+    /* Garante que nada irá sair dentro do container, ou seja, não sairá do elemento pai  */
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+}
+
+.cabecalho{
+padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    border: 4px solid var(--cor-primaria);
+    border-radius: 16px;
+    padding: 21.5px;
+}
+
+.cabecalho__menu__link:hover {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.apresentacao {
+    margin: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__imagem {
+    max-width: 50%;
+    border-radius: 360px;
+}
+
+.apresentacao__about {
+    max-width: 450px;
+}
+
+.apresentacao__imagem:hover {
+    border: 4px solid var(--cor-primaria);
+}
+
+.titulo-destaque {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    /* 16px = 1rem */
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400px;
+    font-size: 1.5rem;
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    border: 4px solid var(--cor-primaria);
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links__link:hover {
+    background-color: var(--cor-primaria);
+    color:var(--cor-secundaria);
+}
+
+.apresentacao__links__link_github {
+    max-width: 30px;
+    /* gostaria de trocar a imagem para cinza, talvez deixar opacidade zerada para monstrar o fundo? */
+}
+
+/* .apresentacao__links__link_github:hover {
+    opacity: 0%;
+} */
+
+.apresentacao__links__link_linkedin{
+    max-width: 30px;
+    /* gostaria de trocar a imagem para cinza, talvez deixar opacidade zerada para monstrar o fundo? */
+}
+
+/* .apresentacao__links__link_linkedin:hover {
+    opacity: 0%;
+} */
+
+.rodape {
+padding: 24px;
+background-color:#784b6b;
+color:var(--cor-secundaria);
+text-align: center;
+font-family: var(--fonte-secundaria);
+font-weight: 400;
+}
+
+@media (max-width: 1134px) {
+    .cabecalho {
+        padding: 10%; 
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Site com círculo cromático https://color.adobe.com/pt/create/color-wheel */
